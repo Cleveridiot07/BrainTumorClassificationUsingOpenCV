@@ -3,6 +3,19 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+dependencies/
+BrainTumor10EpochsCategorical.h5
+.env
+.venv/
+*.pyc
+*.pyo
+*.log
+*.zip
+*.cfg
+
+
+
 # C extensions
 *.so
 
