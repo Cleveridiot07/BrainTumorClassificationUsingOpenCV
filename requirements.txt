@@ -3,3 +3,6 @@ uvicorn
 tensorflow
 pillow
 mangum
+numpy
+scikit-learn
+opencv-python
