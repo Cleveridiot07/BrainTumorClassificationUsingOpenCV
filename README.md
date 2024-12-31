@@ -1,4 +1,7 @@
+
+
 # BrainTumorSegmentationUsingOpenCV
+
 This repository implements a Convolutional Neural Network (CNN) to analyze MRI scans and determine whether a brain tumor is present. The project is designed to function as a backend system, providing the necessary infrastructure to train and deploy the model.
 
 ---
@@ -80,16 +83,15 @@ This repository implements a Convolutional Neural Network (CNN) to analyze MRI s
    cd ..
    ```
 
-2. Start the application:
+2. Start the backend:
    ```bash
-   python main.py
+   uvicorn main:app --reload
    ```
+
+   - This will run the backend at `http://127.0.0.1:8000`.
+   - Press `CTRL+C` to stop the server.
 
 ---
 
-
-
 ## Contribution
 Feel free to fork the repository, create a branch, and submit a pull request to contribute to the project.
-
-
