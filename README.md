@@ -44,7 +44,7 @@ This repository implements a Convolutional Neural Network (CNN) to analyze MRI s
 ### Dataset
 
 1. **Download the dataset**:
-   - [Brain Tumor Classification Dataset](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)
+   - [Brain Tumor Classification Dataset](https://drive.google.com/file/d/1b-CalV24BqxVG8cG_yYRy5_Xre1bue_r/view?usp=sharing)
 
 2. **Place the dataset**:
    - After downloading, place the dataset in the following directory structure:
