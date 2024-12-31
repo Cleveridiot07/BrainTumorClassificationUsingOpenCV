@@ -1,5 +1,4 @@
 
-
 # BrainTumorSegmentationUsingOpenCV
 
 This repository implements a Convolutional Neural Network (CNN) to analyze MRI scans and determine whether a brain tumor is present. The project is designed to function as a backend system, providing the necessary infrastructure to train and deploy the model.
@@ -18,8 +17,8 @@ This repository implements a Convolutional Neural Network (CNN) to analyze MRI s
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone https://github.com/Cleveridiot07/BrainTumorClassificationUsingOpenCV
+   cd BrainTumorClassificationUsingOpenCV
    ```
 
 2. **Initialize a virtual environment**:
@@ -47,10 +46,18 @@ This repository implements a Convolutional Neural Network (CNN) to analyze MRI s
 ### Dataset
 
 1. **Download the dataset**:
-   - [Brain Tumor Classification Dataset](https://drive.google.com/file/d/1b-CalV24BqxVG8cG_yYRy5_Xre1bue_r/view?usp=sharing)
+   - [Brain Tumor Classification Dataset](https://drive.google.com/file/d/1Yu6tPxNmS9JKxBk9KldewiTXCEiCQGl8/view?usp=drive_link)
 
-2. **Place the dataset**:
-   - After downloading, place the dataset in the following directory structure:
+2. **Unzip the dataset**:
+   - After downloading, unzip the dataset:
+     - On Windows: Right-click the file and select **Extract All...**.
+     - On macOS/Linux: Use the command:
+       ```bash
+       unzip datasets.zip
+       ```
+
+3. **Place the dataset**:
+   - After unzipping, place the dataset in the following directory structure:
      ```
      backend/
      ├── model/
@@ -89,9 +96,11 @@ This repository implements a Convolutional Neural Network (CNN) to analyze MRI s
    ```
 
    - This will run the backend at `http://127.0.0.1:8000`.
+   - You can proceed to `http://127.0.0.1:8000/docs` to test the app using the interactive API documentation provided by Swagger UI.
    - Press `CTRL+C` to stop the server.
 
 ---
 
 ## Contribution
 Feel free to fork the repository, create a branch, and submit a pull request to contribute to the project.
+

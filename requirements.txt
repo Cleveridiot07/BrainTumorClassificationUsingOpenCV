@@ -6,3 +6,4 @@ mangum
 numpy
 scikit-learn
 opencv-python
+python-multipart
